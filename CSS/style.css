@@ -1,0 +1,706 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+@font-face {
+    font-family: Lucida Bright;
+    src: url("/Fonts/LBRITE.TTF");
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Dosis",serif;
+}
+.container {
+    max-width: 1240px;
+    width: 100%;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+/* ___________Nav CSS */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    right: 0;
+}
+.navLinks {
+    max-width: 638px;
+    width: 100%;
+}
+h1 {
+    font-size: 52px;
+    font-weight: 800;
+    color: #2e0f1c;
+}
+h1 span {
+    color: #9b315d;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.navLinks ul {
+list-style: none;
+display: flex;
+justify-content: space-between;
+height: 100%;
+align-items: center;
+font-size: 24px;
+font-weight: 600;
+}
+.navLinks ul li a {
+    text-decoration: none;
+    color: #9b315d;
+}
+/* __________Banner CSS */
+.banner {
+    max-width: 100%;
+    width: 100%;
+    height: 100vh;
+    background-image: url("../Images/Banner\ img.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.bannerDiv {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: relative;
+}
+h2 {
+    font-size: 62px;
+    font-family: Lucida Bright;
+    font-weight: 600;
+    color: #2e0f1c;
+}
+h2 span {
+    background-color: #ef77aa;
+    color: #fff;
+}
+#p2 {
+    font-size: 32px;
+    color: #9b315d;
+    font-weight: 500;
+    margin-top: 1.5rem;
+}
+#Bpara {
+    font-size: 18px;
+    max-width: 464px;
+    width: 100%;
+    margin-top: 1rem;
+}
+.bannerContent button {
+    width: 113px;
+    height: 36px;
+    border: 2px solid #9b315d;
+    color: #9b315d;
+    background: transparent;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+/* ___________PhiloSophy Css || Yoga Begin CSS || Methodology CSS */
+.philosophy,.yogaBegin,.methodology {
+    padding-top: 104px;
+}
+.phyDiv,.yogaBeginDiv,.methodDiv {
+    display: flex;
+    justify-content: space-between;
+}
+.phyText,.yogaText,.methodText {
+    max-width: 605px;
+    width: 100%;
+}
+.phyText p,.yogaText p,.methodText p{
+    font-size: 22px;
+    margin-top: 3rem;
+    color: #3d3b3c;
+}
+.phyText button, .yogaText button,.methodText button{
+    width: 113px;
+    height: 39px;
+    border: 2px solid #9b315d;
+    color: #9b315d;
+    background: transparent;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 2.5rem;
+}
+.phyImage  img ,.yogaImage img,.methodImage img{
+    max-width: 100%;
+}
+/* _________feature Css */
+.features  {
+    padding-top: 196px;
+}
+.featureDiv {
+    display: flex;
+    justify-content: space-around;
+}
+.featureCard {
+    border: 1px solid gray;
+    height: auto;
+    max-width: 345px;
+    width: 100%;
+}
+.featureCard img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 100%;
+}
+.featureCard p {
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+}
+.featureCard h3 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 32px;
+    color: #2e0f1c;
+    margin-top: 2rem;
+}
+.featureCard h3 span {
+    color: #9b315d;
+}
+.featureCard p {
+    font-size: 18px;
+    color: #3d3b3c;
+    margin-top: 1.2rem;
+}
+.featureCard button {
+    width: 113px;
+    height: 39px;
+    border: 2px solid #9b315d;
+    color: #9b315d;
+    background: transparent;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: 700;
+    display: block;
+    margin: 0 auto;
+    margin-top: 1.7rem;
+}
+/* _____________Slider CSS */
+.slider {
+    padding-top: 140px;
+}
+.slideDiv {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.slideText p {
+    font-size: 27px;
+    font-style: italic;
+    max-width: 443px;
+    word-spacing: 1px;
+    align-items: center;
+}
+.slideImage img {
+    max-width: 100%;
+}
+.slideLeft,.slideRight {
+    width: 60px;
+    height: 60px;
+    background-color: #9b315d;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* ______________Register Css */
+.regDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.regText {
+    width: 100%;
+    text-align: center;
+}
+.regText h2 {
+    background-color: #ef77aa;
+    color: #fff;
+    display: inline-block;
+}
+#regp1 {
+    font-size: 42px;
+    color: #2e0f1c;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+#regp2 {
+    font-size: 34px;
+    font-weight: 600;
+    color: #2e0f1c;
+    margin-top: 1rem;
+}
+.regText button {
+    width: 155px;
+    height: 42px;
+    border: 2px solid #9b315d;
+    color: #9b315d;
+    background: transparent;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 2rem;
+}
+.regImage {
+    max-width: 620px;
+    width: 100%;
+}
+.regImage img {
+    width: 100%;
+    height: auto;
+}
+/* ________Free Class CSS */
+.freeClass {
+    padding-top: 138px;
+}
+.freeClassDiv {
+    display: flex;
+    justify-content: space-between;
+}
+.freeClassCard {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    background-color: #9b315d;
+    color: #fff;
+    padding-bottom: 1rem;
+}
+.freePara {
+    font-size: 18px;
+    padding-left: 1rem;
+    margin-top: 1rem;
+}
+.freeClassCard img {
+    width: 100%;
+    overflow: hidden;
+}
+.readMore {
+    font-size: 18px;
+    margin-top: 1rem;
+    text-align: left;
+    padding-left: 1rem;
+}
+.freeHead {
+    padding-left: 1rem;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 1.5rem;
+}
+/* ___________Therapy CSS */
+.therapy {
+    height: 40vh;
+    background-image: url("/Images/Therapyimage.png");
+    /* background-color: black;
+    background-blend-mode: multiply; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-top: 139px;
+}
+.therapyHead {
+    font-size: 62px;
+    font-weight: 600;
+    font-family: Lucida Bright,serif;
+}
+.therapyText {
+    font-size: 38px;
+    font-weight: 500;
+}
+/* ______________Footer Css */
+footer {
+    background-color: #9b315d;
+    color: #fff;
+}
+.footerDiv {
+    width: 100%;
+    padding-top: 84px;
+    padding-bottom: 1.5rem;
+}
+.footerText {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+h5 {
+    font-family: Lucida Bright,serif;
+    font-weight: 600;
+    font-size: 36px;
+}
+.footParts p {
+    margin-top: 1rem;
+    font-size: 18px;
+    max-width: 275px;
+}
+.socialMedia  {
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    margin-top: 1rem;
+}
+.copyright p {
+    font-size: 20px;
+    margin-top: 4rem;
+    text-align: center;
+}
+/* _________Responsive Section_________________ */
+@media screen and (max-width: 1399px) {
+    /* ___________NavBar Responsive */
+    .navbar {
+        width: 80%;
+    }
+    .logo h1 {
+        font-size: 40px;
+    }
+    .logo img{
+        width: 65px;
+    }
+    /* __________Banner Responsive */
+    .bannerDiv {
+        padding-right: 2rem;
+    }
+    /* ________Philosophy Responsive || YogaBegin Responsive || Methodology Responsive */
+    .phyDiv , .yogaBeginDiv,.methodDiv{
+        padding: 0 2rem;
+    }
+    /* _______________Register Responsive */
+    .regDiv {
+        padding: 0 3rem;
+    }
+    /* _______Free Class Responsive */
+    .freeClass {
+        padding: 0 1.5rem;
+    }
+    .freeClassCard {
+        width: 32%;
+    }
+}
+@media screen and (max-width: 1199px) {
+    /* __________NavBar Responsive */
+    .navbar {
+        width: 90%;
+    }
+    .navLinks {
+        max-width: 100%;
+        width: 60%;
+    }
+    /* ______Banner Responsive */
+    .banner {
+        height: 80vh;
+    }
+    /* _____________Features CSS */
+    .featureCard img {
+        width: 80%;
+        max-width: 100%;
+    }
+    .featureCard {
+        max-width: 100%;
+        width: 30%;
+        padding:0 1rem;
+    }
+    .featureCard p {
+        font-size: 16px;
+        max-width: 100%;
+        text-align: center;
+    }
+    /* _______Slider Responsive */
+    .slideImage img{
+        width: 100%;
+        max-width: 100%;
+    }
+    .slideImage {
+         width: 20%;
+    }
+    .slideText p {
+        max-width: 380px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .navbar {
+        flex-direction: column;
+    }
+    .navLinks ul {
+        flex-direction: column;
+        align-items: start;
+    }
+    .navLinks ul li {
+        margin-top: 1rem;
+        font-size: 22px;
+    }
+    /* __________Banner Responsive */
+    .banner {
+        height: 60vh;
+    }
+      .bannerDiv {
+        justify-content: center;
+        align-items: end;
+        padding: 0 0 4rem 0;
+      }
+      .bannerContent button {
+        box-shadow: 0 0 20px #fff;
+        color: #fff;
+      }
+      /* __________Philosophy Responsive || YogaBegin || Methodology Responsive*/
+      .phyDiv,.yogaBeginDiv,.methodDiv {
+        flex-direction: column;
+      }
+      .phyImage,.yogaImage,.methodImage {
+        order: -1;
+      }
+      .phyImage img,.yogaImage img,.methodImage img {
+        width: 40%;
+        display: block;
+        margin: 0 auto;
+      }
+      .phyText,.yogaText,.methodText{
+        margin-top: 2rem;
+        max-width: 100%;
+      }
+      /* _________Features Responsive */
+    .featureDiv {
+        flex-direction: column;
+        align-items: center;
+    }
+    .featureCard {
+        width: 50%;
+        padding-bottom: 1rem;
+        margin-top: 1.7rem;
+    }
+    .featureCard img {
+        width: 70%;
+    }
+    .featureCard p {
+        font-size: 18px;
+    }
+    .featureCard button {
+        margin-top: 2rem;
+    }
+    /* ______________Slider Responsive */
+    .slideLeft,.slideRight {
+        width: 40px;
+        height: 40px;
+    }
+    /* ___________Register Responsive */
+    .regText h2 {
+        font-size: 40px;
+    }
+    #regp1 {
+        font-size: 35px;
+    }
+    #regp2 {
+        font-size: 28px;
+    }
+    /* __________Footer Responsive */
+    .footerText {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footParts {
+        margin-top: 3rem;
+        width: 50%;
+    }
+    .footParts p {
+        max-width: 100%;
+    }
+    .socialMedia {
+        width: 60%;
+    }
+}
+@media screen and (max-width: 767px) {
+    .phyText h2 {
+        font-size: 50px;
+    }
+    .phyText p {
+        font-size: 18px;
+    }
+    /* _______Features Responsive */
+    .featureCard {
+        width: 60%;
+    }
+    /* _____________Slider Responsive */
+    .slideImage {
+        width: 20%;
+    }
+    .slideText p {
+        font-size: 16px;
+        max-width: 160px;
+    }
+    /* ________________Register Rsponsive */
+    .register {
+        padding: 0 1rem;
+    }
+    .regText h2 {
+        font-size: 25px;
+    }
+    #regp1 {
+        font-size: 20px;
+    }
+    #regp2 {
+        font-size: 21px;
+    }
+    .regText button {
+        width: 95px;
+        height: 40px;
+        font-size: 15px;
+    }
+    /* ____________FREE CLASS RESPONSIVE */
+    .freeClassDiv {
+        flex-direction: column;
+        align-items: center;
+    }
+    .freeClassCard {
+        width: 70%;
+        margin-top: 1rem;
+    }
+    /* __________Therapy Responsive */
+    .therapyHead {
+        font-size: 40px;
+    }
+    .therapyText p {
+        font-size: 30px;
+    }
+    .therapy {
+        height: 20vh;
+    }
+}
+@media screen and (max-width: 567px) {
+    .bannerDiv {
+        padding:0 1rem 2rem 1rem ;
+    }
+    .bannerContent h2 {
+        font-size: 40px;
+    }
+    #p2 {
+        font-size: 25px;
+    }
+    #Bpara {
+        font-size: 16px;
+    }
+    .bannerContent button {
+        display: block;
+        margin: 0 auto;
+        margin-top: 1rem;
+    }
+    /* __________Philosophy Responsive || YogaBegin Responsive || Method Responsive*/
+    .phyText button ,.yogaText button,.methodText button{
+        display: block;
+        margin: 0 auto;
+        margin-top: 1.5rem;
+    }
+    .phyText h2 ,.yogaText h2,.methodText h2{
+        font-size: 30px;
+        max-width: 100%;
+    }
+    .phyText p ,.yogaText p,.methodText p{
+        font-size: 14px;
+    }
+    /* ___________Features Responsive */
+    .featureCard {
+        width: 80%;
+    }
+    .featureCard h3 {
+        font-size: 25px;
+        margin-top: 1rem;
+    }
+    .featureCard p {
+        font-size: 16px;
+        margin-top: 1rem;
+    }
+    .featureCard button {
+        width: 90px;
+        height: 40px;
+        border-radius: 16px;
+        font-size: 15px;
+    }
+    /* ___________Slider Responsive */
+    .slideText p {
+        font-size: 11px;
+    }
+    .slideLeft,.slideRight {
+        width: 25px;
+        height: 25px;
+        font-size: 11px;
+    }
+    /* ___________Register Responsive */
+    .regDiv {
+        flex-direction: column;
+        align-items: center;
+    }
+    .regImage {
+        order: -1;
+        width: 50%;
+    }
+    .regText {
+        margin-top: 10px;
+    }
+    .regText h2 {
+        font-size: 30px;
+    }
+    #regp1,#regp2 {
+     margin-top: 6px;
+    }
+    .regText button {
+        margin-top: 15px;
+    }
+    /* __________Free Class Responsive */
+    .freeClassCard {
+        width: 90%;
+    }
+    .freePara {
+        font-size: 16px;
+    }
+    .freeHead {
+        font-size: 19px;
+    }
+    /* __________Therapy Responsive */
+    .therapy {
+        height: 20vh;
+        margin-top: 60px;
+    }
+    .therapyHead {
+        font-size: 25px;
+    }
+    .therapyText p {
+        font-size: 20px;
+    }
+    /* _________Footer Responsive */
+    .footerDiv {
+        padding-top: 10px;
+    }
+    h5 {
+        font-style: 20px;
+    }
+    .footParts p {
+        font-style: 15px;
+    }
+    .copyright p{
+        font-style: 16px;
+        width: 60%;
+    }
+    .socialMedia i{
+        font-style: 16px;
+        width: 100%;
+    }
+    .footParts {
+        width: 80%;
+    }
+}
